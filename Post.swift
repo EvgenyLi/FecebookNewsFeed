@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Post {
+    var name: String?
+    var statusText: String?
+    var avatar: String?
+    var statusImage: String?
+    var likeLabelCount: String?
+    var shareCount: String?
+}
