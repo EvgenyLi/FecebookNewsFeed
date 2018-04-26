@@ -78,6 +78,7 @@ class FeedCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.layer.masksToBounds = true
+        imageView.isUserInteractionEnabled = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -234,6 +235,7 @@ class FeedCell: UICollectionViewCell {
         shareButton.rightAnchor.constraint(equalTo: self.contentView.rightAnchor).isActive = true
         shareButton.widthAnchor.constraint(equalToConstant: contentView.frame.width / 3).isActive = true
         shareButton.heightAnchor.constraint(equalToConstant: 20).isActive = true
+    
     }
     
    

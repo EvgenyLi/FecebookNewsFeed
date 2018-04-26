@@ -14,6 +14,9 @@
 		2822C1B7208BC68E0041D550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2822C1B5208BC68E0041D550 /* LaunchScreen.storyboard */; };
 		2822C1BF208BD36A0041D550 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822C1BE208BD36A0041D550 /* FeedCell.swift */; };
 		286D1BF4208D1583001294D6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1BF3208D1583001294D6 /* Post.swift */; };
+		28C3780D208E746800B517F0 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C3780C208E746800B517F0 /* CustomTabBarController.swift */; };
+		28C3780F208E796700B517F0 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C3780E208E796700B517F0 /* FriendsViewController.swift */; };
+		28C37811208E7A4300B517F0 /* FriendRequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C37810208E7A4300B517F0 /* FriendRequestsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		2822C1B8208BC68E0041D550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2822C1BE208BD36A0041D550 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		286D1BF3208D1583001294D6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		28C3780C208E746800B517F0 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		28C3780E208E796700B517F0 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		28C37810208E7A4300B517F0 /* FriendRequestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,9 @@
 		2822C1A0208BC68B0041D550 = {
 			isa = PBXGroup;
 			children = (
+				28C37810208E7A4300B517F0 /* FriendRequestsCell.swift */,
+				28C3780E208E796700B517F0 /* FriendsViewController.swift */,
+				28C3780C208E746800B517F0 /* CustomTabBarController.swift */,
 				286D1BF3208D1583001294D6 /* Post.swift */,
 				2822C1AB208BC68B0041D550 /* Facebook News Feed */,
 				2822C1AA208BC68B0041D550 /* Products */,
@@ -143,7 +152,10 @@
 			files = (
 				2822C1AF208BC68B0041D550 /* FeedController.swift in Sources */,
 				2822C1AD208BC68B0041D550 /* AppDelegate.swift in Sources */,
+				28C3780D208E746800B517F0 /* CustomTabBarController.swift in Sources */,
 				2822C1BF208BD36A0041D550 /* FeedCell.swift in Sources */,
+				28C37811208E7A4300B517F0 /* FriendRequestsCell.swift in Sources */,
+				28C3780F208E796700B517F0 /* FriendsViewController.swift in Sources */,
 				286D1BF4208D1583001294D6 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
